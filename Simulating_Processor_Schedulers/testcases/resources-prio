@@ -1,0 +1,20 @@
+process 1
+	start 0
+	lifespan 5
+	prio 0
+	acquire 1 1 4
+end
+
+process 2
+	start 2
+	lifespan 5
+	prio 10
+	acquire 1 0 2
+end
+
+process 3
+	start 3
+	lifespan 5
+	prio 20
+	acquire 1 1 2
+end

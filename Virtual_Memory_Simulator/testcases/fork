@@ -1,0 +1,33 @@
+alloc 0 r
+alloc 1 r
+alloc 2 r
+alloc 3 r
+alloc 16 rw
+alloc 17 rw
+alloc 18 rw
+alloc 19 rw
+alloc 8 r
+alloc 7 r
+alloc 6 rw
+alloc 5 rw
+show
+frames
+
+switch 1
+show
+frames
+
+read 0
+read 1
+read 2
+read 3
+read 5
+read 6
+
+switch 0
+show
+frames
+read 1
+read 3
+read 5
+read 7

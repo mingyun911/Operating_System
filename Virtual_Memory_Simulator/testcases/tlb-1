@@ -1,0 +1,15 @@
+alloc 0 r
+alloc 1 r
+alloc 16 rw
+alloc 17 rw
+
+read 0
+read 1
+read 0
+write 17
+write 17
+tlb
+
+free 0
+free 1
+tlb

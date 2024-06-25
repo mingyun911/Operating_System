@@ -1,0 +1,10 @@
+alias xyz Hello world
+alias ijk This is a 
+alias lmn Operating Systems test.
+echo xyz
+echo xyz ijk lmn
+alias
+alias world South Korea
+echo Hello world
+alias
+echo xyz world

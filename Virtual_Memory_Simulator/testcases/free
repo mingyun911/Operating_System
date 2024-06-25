@@ -1,0 +1,36 @@
+alloc 0 r
+alloc 1 r
+alloc 2 rw
+alloc 3 rw
+
+switch 1
+read 1
+write 2
+free 0
+
+switch 2
+read 1
+write 3
+
+switch 0
+read 2
+write 2
+write 3
+
+show
+frames
+
+free 0
+free 1
+free 2
+free 8
+
+show
+frames
+
+alloc 0 rw
+alloc 1 rw
+alloc 2 rw
+
+show
+frames

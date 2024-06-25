@@ -1,0 +1,24 @@
+process 1
+	start 0
+	lifespan 3
+end
+
+process 2
+	start 0
+	lifespan 10
+end
+
+process 3
+	start 0
+	lifespan 8
+end
+
+process 4
+	start 0
+	lifespan 3
+end
+
+process 5
+	start 1
+	lifespan 1
+end

@@ -1,0 +1,9 @@
+/bin/pwd
+cd subdir/a/b
+/bin/pwd
+cd ~
+/bin/pwd
+cd subdir/a/b/c
+/bin/pwd
+cd
+/bin/pwd

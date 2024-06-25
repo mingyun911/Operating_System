@@ -1,0 +1,28 @@
+alloc 0 r
+alloc 1 r
+alloc 2 r
+alloc 3 r
+alloc 16 rw
+alloc 17 rw
+alloc 18 rw
+alloc 19 rw
+alloc 8 r
+alloc 7 r
+alloc 6 rw
+alloc 5 rw
+switch 1
+show
+frames
+
+read 16
+read 17
+write 18
+write 19
+write 2  # Should be unaccessible
+show
+
+switch 0
+show
+write 19
+write 18
+frames

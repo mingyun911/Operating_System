@@ -1,0 +1,18 @@
+alloc 0 r
+alloc 1 r
+alloc 2 rw
+alloc 3 rw
+
+alloc 16 r
+alloc 17 rw
+alloc 32 rw
+alloc 48 r
+show
+frames
+
+read 0
+read 1
+write 2
+write 16
+write 32
+read 48

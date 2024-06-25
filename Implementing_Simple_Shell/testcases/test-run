@@ -1,0 +1,6 @@
+/bin/echo hello world
+echo welcome to my amazing shell!
+try to run non-existing executable
+echo sleep 20
+./toy arg1 arg2 arg3 arg4 arg5
+./toy zzz 5

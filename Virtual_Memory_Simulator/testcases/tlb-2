@@ -1,0 +1,21 @@
+alloc 2 rw
+alloc 3 rw
+alloc 0 r
+alloc 1 r
+
+read 1
+read 0
+read 1
+tlb
+
+switch 1
+tlb
+
+write 3
+write 2
+write 3
+tlb
+
+switch 0
+write 3
+tlb
